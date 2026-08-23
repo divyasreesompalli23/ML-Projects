@@ -1,64 +1,80 @@
-Customer Segmentation using K-Means Clustering
+# Customer Segmentation using K-Means Clustering
 
-📌 Project Overview
+## 📌 Project Overview
 
 This project uses the K-Means clustering algorithm to segment mall customers based on their Annual Income and Spending Score. The goal is to identify different groups of customers and understand their spending behavior.
 
-🎯 Objective
+## 🎯 Objective
 
-To divide customers into meaningful groups based on: 
-.Annual Income 
-.Spending Score
+To divide customers into meaningful groups based on:
 
-📊 Dataset
+- Annual Income
+- Spending Score
 
-The dataset contains information about 200 mall customers with the following features: .CustomerID .Gender .Age .Annual Income (k$) .Spending Score (1-100)
+## 📊 Dataset
 
-🛠️ Technologies Used
+The dataset contains information about 200 mall customers with the following features:
 
-.Python 
-.Google Colab
-.Pandas
-.NumPy 
-.Matplotlib 
-.Scikit-learn
+- CustomerID
+- Gender
+- Age
+- Annual Income (k$)
+- Spending Score (1-100)
 
-🤖 Machine Learning Algorithm
+## 🛠️ Technologies Used
 
-K-Means Clustering is used to group customers into different clusters. The Elbow Method was used to determine the optimal number of clusters. Optimal Number of Clusters: 5
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
 
-📈 Customer Segments
+## 🤖 Machine Learning Algorithm
 
-The customers were divided into five segments: .Standard Customers .Premium Customers .High-Spending Customers .Potential Customers .Low-Value Customers
+K-Means Clustering is used to group customers into different clusters. The Elbow Method was used to determine the optimal number of clusters.
 
-💡 Key Insights
+**Optimal Number of Clusters: 5**
 
-.Premium customers have high income and high spending scores. 
-.Potential customers have high income but low spending scores. 
-.Low-income customers can still have high spending behavior. 
-.Customer segmentation can help businesses create targeted marketing strategies.
+## 📈 Customer Segments
 
-🚀 Project Workflow
+The customers were divided into five segments:
 
-Dataset 
-   ↓
-Data Exploration
-   ↓
-Data Cleaning 
-   ↓
-Feature Selection 
-   ↓
-Elbow Method 
-   ↓
-K-Means Clustering 
-   ↓
-Customer Segmentation 
-   ↓
+- Standard Customers
+- Premium Customers
+- High-Spending Customers
+- Potential Customers
+- Low-Value Customers
+
+## 💡 Key Insights
+
+- Premium customers have high income and high spending scores.
+- Potential customers have high income but low spending scores.
+- Low-income customers can still have high spending behavior.
+- Customer segmentation can help businesses create targeted marketing strategies.
+
+## 🚀 Project Workflow
+
+Dataset  
+↓  
+Data Exploration  
+↓  
+Data Cleaning  
+↓  
+Feature Selection  
+↓  
+Elbow Method  
+↓  
+K-Means Clustering  
+↓  
+Customer Segmentation  
+↓  
 Business Insights
 
-📁 Project Structure
+## 📁 Project Structure
 
-customer-segmentation-kmeans/ 
-    │ 
-    ├── customer_segmentation_kmeans.ipynb
-    └── README.md
+```text
+01-Customer-Segmentation/
+│
+├── Customer_Segmentation_KMeans.ipynb
+└── README.md
